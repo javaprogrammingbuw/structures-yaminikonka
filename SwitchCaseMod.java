@@ -16,6 +16,9 @@ public class SwitchCaseMod {
         }else{
         	int c=a%b;
         	switch (c){
+        		case 0:
+        		System.out.println("zero");
+        		break;
         		case 1:
         		System.out.println("one");
         		break;
