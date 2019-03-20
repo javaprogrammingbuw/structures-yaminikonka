@@ -13,7 +13,7 @@ public class SumMeanMinMax {
 		int b = scan.nextInt();
 		int c = scan.nextInt();
 		System.out.println("the sum of the three given numbers is:"+(a+b+c));
-        System.out.println("the mean of the a,b,c is:"+(a+b+c)/3);
+        System.out.println("the mean of the a,b,c is:"+((double)(a+b+c)/3));
         if(a>b&&a>c){
         	System.out.println("a is maximum and it's value is:"+a);
         }else if(b>a&&b>c){
